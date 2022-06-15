@@ -1,0 +1,77 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-size: 15px;
+    font-family:"Lexend",sans-serif;
+    font-weight: 400;
+  
+}
+
+.flex-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+img{
+    height: 30px;
+    width: 40px;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: small;
+    
+}
+h2{
+    font-family:"Big Shoulders Display",sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+.one{
+    display: grid;
+    background-color:hsl(31, 77%, 52%);
+    height: 350px;
+    width: 180px;
+    padding: 30px;
+    border-radius: 5px 0px 0px 5px;
+   
+}
+
+.two{
+    display: grid;
+    background-color:hsl(184, 100%, 22%);
+    height: 350px;
+    width: 180px;
+    padding: 30px;
+}
+
+.three{
+    display: grid;
+    background-color: hsl(179, 100%, 13%);
+    height: 350px;
+    width: 180px;
+    padding: 30px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+button{
+    background-color:transparent ;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid 1px white;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    color: white;
+    
+}
